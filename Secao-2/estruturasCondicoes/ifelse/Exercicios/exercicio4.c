@@ -2,7 +2,7 @@
 
 int main() {
 
-    int vitorias, empates, derrotas;
+    int vitorias, empates, derrotas, pontos;
 
     printf("Quantas vitorias o time tem? ");
     scanf("%d", &vitorias);
@@ -13,8 +13,9 @@ int main() {
     printf("Quantas derrotas o time tem? ");
     scanf("%d", &derrotas);
 
-    float pontos = (vitorias * 3) + (empates * 1) + (derrotas * 0);
-    printf("O time tem %.2f pontos", pontos);
+    pontos = (vitorias * 3) + empates;
+    
+    printf("O time tem %d pontos", pontos);
 
     return 0;
 }

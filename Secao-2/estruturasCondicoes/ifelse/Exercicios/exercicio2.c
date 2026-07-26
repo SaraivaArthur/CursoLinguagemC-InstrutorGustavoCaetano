@@ -13,7 +13,7 @@ int main() {
 
     media = (float)gols / partidas;
 
-    printf("\nMedia: %.2f", media);
+    printf("\nMedia: %.2f gols por partida", media);
 
     return 0;
 }
